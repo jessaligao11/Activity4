@@ -161,8 +161,9 @@ WHERE appointid = (
 		SELECT animalid 
 		FROM animals WHERE name = 'Simba'));
 
--- feat/modify-lastname-dr-reyes-gonzales
+
 DELETE FROM appointments
 WHERE animalid = (
 	SELECT animalid 
 	FROM animals WHERE name = 'Simba');
+
